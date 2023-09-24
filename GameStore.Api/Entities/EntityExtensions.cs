@@ -3,6 +3,8 @@ using GameStore.Api.Entities;
 
 namespace GameStore.Api.Endpoints;
 
+//can use AutoMapper to replace this one
+
 public static class EntityExtensions
 {
     public static GameDto AsDto(this Game game)
